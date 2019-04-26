@@ -5,36 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
     <title>Avengers</title>
   </head>
   <body>
-    <h1>AVENGERS</h1>
+    <div class="fond">
+      <header class="header-container">
+        <nav class="header-menu">
+          <a href="#homepage-container">Avengers </a>
+          <a href="#partie2-container">Avengers 2</a>
+          <a href="#partie3-container">Avengers 3</a>
+        </nav>
+      </header>
 
-    <!-- Partie 1 -->
+      <!-- Partie 1 -->
 
-    <section class="partie1">
-      <div class="image">
-        <img src="img/avenger1.jpg" alt="Photo Avengers 1" />
-      </div>
-      <p class="texte">
-        Lorsque Nick Fury, le directeur du S.H.I.E.L.D., l'organisation qui
-        préserve la paix au plan mondial, cherche à former une équipe de choc
-        pour empêcher la destruction du monde, Iron Man, Hulk, Thor, Captain
-        America, Hawkeye et Black Widow répondent présents. Les Avengers ont
-        beau constituer la plus fantastique des équipes, il leur reste encore à
-        apprendre à travailler ensemble, et non les uns contre les autres,
-        d'autant que le redoutable Loki a réussi à accéder au Cube Cosmique et à
-        son pouvoir illimité...
-      </p>
-    </section>
+      <section class="partie1">
+        <div class="image">
+          <img src="img/avenger1.jpg" alt="Photo Avengers 1" height="650px" />
+        </div>
+        <video controls preload="metadata" height="300" width="300">
+          <source src="img/Avengers - Bande Annonce.mp4" />
+        </video>
+        <h1 id="homepage-container">AVENGERS</h1>
+        <p class="texte">
+          Lorsque Nick Fury, le directeur du S.H.I.E.L.D., l'organisation qui
+          préserve la paix au plan mondial, cherche à former une équipe de choc
+          pour empêcher la destruction du monde, Iron Man, Hulk, Thor, Captain
+          America, Hawkeye et Black Widow répondent présents. Les Avengers ont
+          beau constituer la plus fantastique des équipes, il leur reste encore
+          à apprendre à travailler ensemble, et non les uns contre les autres,
+          d'autant que le redoutable Loki a réussi à accéder au Cube Cosmique et
+          à son pouvoir illimité...
+        </p>
+      </section>
+    </div>
 
     <!-- Partie 2 -->
 
     <section class="partie2">
       <div class="image1">
-        <img src="img/avenger2.jpg" alt="Photo Avengers 2" />
+        <img src="img/avenger2.jpg" alt="Photo Avengers 2" height="650px" />
       </div>
-      <p>
+      <video controls preload="metadata" height="300" width="300">
+        <source src="img/AVENGERS 2 Bande Annonce.mp4" />
+      </video>
+      <h1 id="partie2-container">AVENGERS 2</h1>
+      <p class="texte1">
         Tony Stark tente de relancer un programme de maintien de la paix
         jusque-là suspendu. Mais les choses tournent mal et les super-héros Iron
         Man, Captain America, Thor, Hulk, la Veuve Noire et Hawkeye sont bientôt
@@ -50,9 +70,15 @@
 
     <section class="partie3">
       <div class="image2">
-        <img src="img/avenger3.jpg" alt="Photo Avengers 3" />
+        <img src="img/avenger3.jpg" alt="Photo Avengers 3" height="650px" />
       </div>
-      <p>
+      <video controls preload="metadata" height="300" width="300">
+        <source
+          src="img/Avengers - Infinity War - Bande-annonce officielle (VF)-FLUVORE.mp4"
+        />
+      </video>
+      <h1 id="partie3-container">AVENGERS 3</h1>
+      <p class="texte2">
         Alors que les Avengers et leurs alliés ont continué de protéger le monde
         face à des menaces bien trop grandes pour être combattues par un héros
         seul, un nouveau danger est venu de l'espace : Thanos. Despote craint
@@ -63,4 +89,12 @@
       </p>
     </section>
   </body>
+
+  <!-- Footer -->
+  <footer>
+    <div>Copyright Julio</div>
+    <div>Tous droits réservés</div>
+    <div>Contact</div>
+    <div>Mention légale</div>
+  </footer>
 </html>
